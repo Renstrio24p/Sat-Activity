@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/dogstyles.css">
+
+    <title>Dog Photo Blog</title>
+</head>
+<body>
+
+    <!--- *************************************** hero section **************************-->
+    
+    <h1> Dog Photo Blog </h1>
+    
+
+    <!--- *************************************** end of hero section **************************-->
+
+    <!--- *************************************** main section **************************-->
+    <main>
+    <!-- About Section -->
+    
+    <section class="section1">
+        <h2> Dog Photos </h2>
+        <p>  Click here to view more <a href="#" target="_blank"> Dog pictures. </a> </p>
+
+        <a href="#">
+            <figure>
+                <img src="images/dog-pic1.jpg" class="dog1" alt="dog-1pic">
+                <figcaption> My dog love's pizza</figcaption>
+            </figure>
+        </a>
+
+    </section>
+    <!-- Featured Section -->
+
+    <section>
+        <h2> Dog lists</h2>
+        <h3> Things Dogs love</h3>
+
+        <li> Seeing their owners</li>
+        <li> Dog treats</li>
+        <li> Dog toys</li>
+        <figure>
+            <img src="images/dog treats and hobbies/pizza.jpg" class="dog2" alt="dog-2pic">
+            <figcaption> My dogs <em> love </em> pizza</figcaption>
+        </figure>
+        <h3>Three things that our dogs hate:</h3>
+        <ol>
+            <li>Cats</li>
+            <li>Taking a bath</li>
+            <li>Being alone</li>
+        </ol>
+
+        <figure>
+            <img src="https://i.pinimg.com/originals/4b/fb/48/4bfb48bba1761031c67a30f3372b073e.jpg" alt="cute dogs">
+            <figcaption>Dogs <strong> love's </strong> their owners and their paws.</figcaption>
+        </figure>
+    </section>
+
+    <section>   
+    <!-- Form Section -->
+
+    <h2> Dog FORM</h2>
+    <form action="#">
+        <fieldset>
+            <legend>Is your dog is an outdoor or indoor dog ?</legend>
+            <label> <input id="indoor" value="indoor" type="radio" name="indoor-outdoor" checked/> Indoor </label>
+            <label> <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor" /> Outdoor </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>What is your dog's personality?</legend>
+            <input id="lovable"  value="lovable" type="checkbox" name="personality" checked> <label for="loving"> Lovable </label>
+            <input id="lazy"  value="lazy" type="checkbox" name="personality"> <label for="lazy"> Lazy </label>
+            <input id="energetic"  value="energetic" type="checkbox"> <label for="energetic"> Energetic </label>
+       
+        </fieldset>
+
+        <input type="text" name="cutedogs1" placeholder="cute dogs url" required/>
+        <button type="submit">Submit</button>
+
+    </form>
+
+    </section>
+    </main>
+    <!--- *************************************** end of main section **************************-->
+
+    <!--- *************************************** footer section **************************-->
+
+    <footer>
+
+        <p> Copyright 2023</p>
+    </footer>
+
+    <!--- *************************************** end of footer section **************************-->
+
+</body>
+</html>
